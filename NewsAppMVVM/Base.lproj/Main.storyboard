@@ -56,10 +56,6 @@
                                 </connections>
                             </tableViewCell>
                         </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="sTU-7E-A5g" id="2Sv-nz-ffR"/>
-                            <outlet property="delegate" destination="sTU-7E-A5g" id="4y4-K7-e1Q"/>
-                        </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="News" id="XXd-ab-HiE"/>
                 </tableViewController>

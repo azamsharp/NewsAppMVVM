@@ -44,7 +44,7 @@ extension ArticleViewModel {
     }
     
     var description: Observable<String> {
-        return Observable<String>.just(article.description)
+        return Observable<String>.just(article.description ?? "")
     }
     
 }
